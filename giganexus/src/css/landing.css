@@ -1,0 +1,126 @@
+.landing-page{
+    height: 100%;
+    width: 100vw;
+    background-color: #C9D9E2;
+    border: 1px solid black;
+    /* display: flex; */
+   justify-content: center;
+    
+}
+.parent1{
+    margin-top: 1%;
+    height: 30%;
+    width: 100%;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.child1{
+    box-shadow: 0px -25px 20px -20px rgba(74,144,226,1),
+25px 0px 20px -20px rgba(74,144,226,1),
+0px 25px 20px -20px rgba(74,144,226,1),
+-25px 0px 20px -20px rgba(74,144,226,1);
+
+    border-radius: 0.6em;
+    background-color: white;
+    /* border: 1px solid black; */
+    height: 87%;
+    width: 10%;
+}
+
+.card-box1{
+    margin-top: 1%;
+    margin-left: 5%;
+    /* border: 1px solid rgb(206, 19, 19); */
+    height: 52%;
+    width:80%;background-repeat: no-repeat;
+    background-image: url(../assests/cardimage1.png);
+}
+.container1-card7-box1{
+    margin-left: 15%;
+}
+.container2-card2-box1{
+    margin-left: 15%;
+}
+.container2-card3-box1{
+    margin-left: 15%;
+}
+.container2-card4-box1{
+    margin-left: 20%;
+}
+.container2-card5-box1{
+    margin-left: 20%;
+}
+.container2-card6-box1{
+    margin-left: 20%; 
+}
+.container2-card7-box1{
+    margin-left: 20%; 
+}
+.container3-card1-box1{
+    margin-left: 20%; 
+}
+.container3-card2-box1{
+    margin-left: 20%; 
+}
+.container3-card3-box1{
+    margin-left: 20%; 
+}
+.card-box2{
+    margin-left: 6%;
+    font-size: large;
+    font-family: "Rubik";
+    font-weight: 600;
+    color: black;
+    height: 8%;
+    width: 100%;
+    /* border: 1px solid greenyellow; */
+}
+.card-box3{
+    margin-left: 6%;
+    margin-top: 4%;
+    font-size: small;
+    font-family: "Rubik";
+    color: #6D6B6B;
+    height: 8%;
+    width: 100%;
+    /* border: 1px solid rgb(5, 116, 219); */
+}
+
+.card-box4{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid brown; */
+}
+
+.card-box4 .child4-a{
+    height: auto;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0075FF;
+    
+    /* border: 1px solid rgb(204, 33, 33); */
+}
+.card-box4 .child4-b{
+    font-family: "Rubik";
+    height: 100%;
+    width: 80%;
+    /* border: 1px solid rgb(95, 196, 38);  */
+}
+
+.card-box5{
+    margin-left: 84.8%;
+    border-radius: 0.3em;
+    height: 15%;
+    width: 15%;
+    background-color: white;
+    
+}
+
+
