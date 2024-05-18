@@ -1,0 +1,112 @@
+.about-page{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+
+}
+.about-parent1{
+    display:  flex ;
+    align-items:center;
+    justify-content: center;
+    height:10%;
+    width: 100%;
+    /* border: 1px solid rgb(238, 121, 121); */
+}
+.about-parent1 p{
+    font-size: large;
+    margin-top: 5%;
+    font-family: 'Rubik';
+    font-weight: 600;
+}
+.about-parent-child{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:center;
+}
+.about-parent2{
+    display:  flex ;
+    align-items: center;
+    height:10%;
+    width: 100%;
+    /* border: 1px solid rgb(238, 121, 121); */
+}
+.about-parent2 p{
+    font-family: 'Rubik';
+    color: #4B4B4B;
+    font-weight: 500;
+}
+.about-parent3{
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.about-parent3-child1{
+    padding: 1%;
+    height: 100%;
+    width: 60%;
+    /* border: 1px solid red; */
+}
+.about-parent3-child1 h2{
+    font-family: 'Rubik';
+
+}
+.about-parent3-child1 p{
+    font-size: large;
+    font-family: 'Rubik';
+    color: #4B4B4B;
+    font-weight:500;
+    
+}
+.about-parent3-child2{
+    margin-left: 1%;
+    height: 100%;
+    width: 35%;
+    /* border: 1px solid red; */
+    background-image: url(../assests/abimg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about-parent4{
+    height: 50%;
+    width: 100%;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.about-parent4 h1{
+    font-family: 'Rubik';
+}
+.about-parent4 h3{
+    margin-right: 78%;
+    font-family: 'Rubik';
+    font-weight: 700;
+}
+.about-parent4 p{
+    font-size: large;
+    font-family: 'Rubik';
+    color: #4B4B4B;
+    font-weight:500;
+}
+.about-parent4-child1{
+    height: 100%;
+    width: 23%;
+    /* border: 1px solid red; */
+    background-image: url(../assests/abimg3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about-parent4-child2{
+    padding: 1%;
+    height: 100%;
+    width: 77%;
+    /* border: 1px solid red; */
+}
+
