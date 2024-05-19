@@ -2,6 +2,7 @@
     height: 100%;
     width: 100%;
     /* border: 1px solid black; */
+    overflow-x: hidden;
 
 }
 .about-parent1{
@@ -108,5 +109,24 @@
     height: 100%;
     width: 77%;
     /* border: 1px solid red; */
+}
+.about-page2{
+    height: 100%;
+    width: 100%;
+    background-image: url(../assests/abbg22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.about-page2-parent{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+.about-page2-child1{
+    border: 1px solid black;
+    height: 10%;
+    width: 100%;
 }
 

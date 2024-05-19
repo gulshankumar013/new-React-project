@@ -17,7 +17,7 @@ const About = () => {
         <div className='about-parent2'>
               <div className='about-parent-child'><p>Web App</p> </div>
               <div className='about-parent-child'> <p>Internship Project</p></div>
-              <div className='about-parent-child'> <p>Full Stack developer</p></div>
+              <div className='about-parent-child'> <p>Full Stack Developer</p></div>
               <div className='about-parent-child'> <p>Gulshan Kumar</p></div>
               <div className='about-parent-child'> <p>Gaming & Entertainment</p></div> 
         </div>
@@ -43,9 +43,14 @@ const About = () => {
                 India’s gaming market which stood $2.6 billion in 2022, it will be worth $8.6 billion by 2027 as it is expected to grow at a Compoud Annual Rate (CAR) of 27%. Due to its emerging economy and resilient supply chains, it is high time to prioritise and tap onto the emerging market force to stay ahead in the game.</p>
             </div>
         </div>
-       
-        
+          {/* 2nd about scroll screen   */}
+          <div className='about-page2'>
+              <div className='about-page2-parent'></div>
+                  <div className='about-page2-child1'>hiii</div>
+                  <div></div>
+          </div>
     </section>
+      
     </>
     
   )
