@@ -1,11 +1,13 @@
 import React from 'react'
 import "../css/about.css"
+import Nav from './Nav';
+import Footer from './Footer';
 
 
 const About = () => {
   return (
     <>
-      <section className='about-page'>
+      <div className='about-page'>
       
         <div className='about-parent1'>
               <div className='about-parent-child'><p>What is?</p></div>
@@ -138,10 +140,14 @@ const About = () => {
                 <div className='about-page5'>
                       <div className='about-page5-child'><h1>TARGET AUDIENCE</h1></div>
                       <div className='about-page5-child2'></div>
-                      <div></div>
+                      <div className='about-page5-child3'>
+                              <div className='about-page5-child3-a'><h1>18-24 years old</h1><br /><p>This age group belong to college students. 59% of this age group are involved in gaming</p></div>
+                              <div className='about-page5-child3-a'><h1>25-44 years old</h1><br /><p>This age group belong to working professionals. 31% of this age group involved in gaming</p></div>
+                              <div className='about-page5-child3-a'><h1>45+ years old</h1><br /><p>10% of this age group constitute to gaming</p></div>
+                      </div>
                 </div>
-    </section>
-      
+    </div>
+    <Footer/>
     </>
     
   )

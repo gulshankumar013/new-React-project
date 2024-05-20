@@ -371,7 +371,7 @@ font-weight: 300;
 .about-page4{
     height: 35%;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
 
@@ -382,12 +382,12 @@ font-weight: 300;
     flex-wrap: wrap;
     height: 100%;
     width: 95%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 .about-page4-child1{
     height: 80%;
     width: 40%;
-border: 1px solid black;
+/* border: 1px solid black; */
 }
 .about-page4-child1 h1{
     font-family: 'Rubik';
@@ -402,7 +402,7 @@ border: 1px solid black;
 .about-page4-child2{
     height: 80%;
     width: 40%;
-border: 1px solid black;
+/* border: 1px solid black; */
 }
 .about-page4-child2 h1{
     font-family: 'Rubik';
@@ -417,13 +417,12 @@ border: 1px solid black;
 .about-page5{
     height: 80%;
     width: 100%;
-    border: 1px solid red;
-
+    /* border: 1px solid rgb(109, 224, 15); */
 }
 .about-page5-child{
     height: 6%;
     width: 100%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 .about-page5-child h1{
     font-family: 'Rubik';
@@ -434,10 +433,30 @@ border: 1px solid black;
     margin-left: 20%;
     height: 35%;
     width: 58%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     background-image: url(../assests/arrow.svg);
     background-repeat: no-repeat;
 }
-
-
+.about-page5-child3{
+    margin-left: 20%;
+    display: flex;
+    height: 50%;
+    width: 70%;
+    /* border: 1px solid black; */
+}
+.about-page5-child3-a{
+    height: 50%;
+    width: 40%;
+    /* border: 1px solid black; */
+}
+.about-page5-child3-a h1{
+    font-family: 'Rubik';
+    font-size: 170%;
+    
+}
+.about-page5-child3-a p{
+font-size: larger;
+    font-family: 'Rubik';
+    color: #4B4B4B;
+}
 
