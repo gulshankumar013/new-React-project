@@ -8,6 +8,11 @@ import Categories from './Component/Categories';
 import NewLaunch from './Component/NewLaunch';
 import About from './Component/About';
 import Landing from './Component/Landing';
+import Customizehedder from './Component/Customizehedder';
+import Customize1 from './Component/Customize1';
+import Customize2 from './Component/Customize2';
+import Customize3 from './Component/Customize3';
+
 
 const App = () => {
   const router = createBrowserRouter([
@@ -27,7 +32,25 @@ const App = () => {
     
         {
           path:"/customize",
-          element:<Customize/>
+          element:<Customize/>,
+          children:[
+            {
+              path:"/customize/hedder",
+              element:<Customizehedder/>
+            },
+            {
+                path:"/customize/hedder/customize1",
+                element:<Customize1/>
+            },
+            {
+                 path:"/customize/hedder/customize2",
+                element:<Customize2/>
+            },
+            {
+                path:"/customize/hedder/customize3",
+                element:<Customize3/>,
+            }
+          ]
         },
         {
           path:"/categories",
