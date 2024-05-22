@@ -1,10 +1,18 @@
 import React from 'react'
+import '../css/categories.css'
+import bgvideo from '../assests/video.mp4'
+import Footer from "./Footer";
 
 const Categories = () => {
   return (
-    <div>
-      <h1>hi i am a Categories page</h1>
+    <>
+    <div className='categories'>
+      <video src={bgvideo} autoPlay loop muted/>
+
+        <div></div>
     </div>
+    <Footer/>
+    </>
   )
 }
 
