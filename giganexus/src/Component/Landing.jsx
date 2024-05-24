@@ -33,6 +33,13 @@ const slideImages = [
   },
 ];
 const Landing = () => {
+
+ let toggle=()=>{
+      console.log(object)
+      var blur = document.getElementById('blur')
+      blur.classList.toggle('active')
+
+}
   return (
     <>
       <div className="slide-container">
@@ -56,7 +63,7 @@ const Landing = () => {
               <div className="parent1">
                              
                         {/* card 1 */}
-                        <div className="child1">
+                        <div className="child1" id="blur">
                               <div style={{backgroundImage:"url('cabin.png')"}}  className="card-box1"></div>
                               <div className="card-box2">Cabinate</div>
                               <div className="card-box3">Grey White Smoulder...</div>
@@ -64,7 +71,10 @@ const Landing = () => {
                                     <div className="child4-a"><FaIndianRupeeSign/></div>
                                     <div className="child4-b">13,000</div>
                               </div>
+                  
+                                    <div className="child4-c" onClick={()=>toggle()}> View More</div>
                                     <div className="card-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
+                                    
                         </div>
 
                         {/* card 2 */}
@@ -76,6 +86,7 @@ const Landing = () => {
                                     <div className="child4-a"><FaIndianRupeeSign/></div>
                                     <div className="child4-b">30,000</div>
                               </div>
+                                    <div className="child4-c"> View More</div>
                                     <div className="card-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -88,6 +99,7 @@ const Landing = () => {
                                     <div className="child4-a"><FaIndianRupeeSign/></div>
                                     <div className="child4-b">44,499</div>
                               </div>
+                                     <div className="child4-c"> View More</div>
                                     <div className="card-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -100,6 +112,7 @@ const Landing = () => {
                                     <div className="child4-a"><FaIndianRupeeSign/></div>
                                     <div className="child4-b">66,990</div>
                               </div>
+                                    <div className="child4-c"> View More</div>
                                     <div className="card-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -112,6 +125,7 @@ const Landing = () => {
                                     <div className="child4-a"><FaIndianRupeeSign/></div>
                                     <div className="child4-b">39,990</div>
                               </div>
+                                    <div className="child4-c"> View More</div>
                                     <div className="card-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -124,6 +138,7 @@ const Landing = () => {
                                     <div className="child4-a"><FaIndianRupeeSign/></div>
                                     <div className="child4-b">28,777</div>
                               </div>
+                                    <div className="child4-c"> View More</div>
                                     <div className="card-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -136,6 +151,7 @@ const Landing = () => {
                                     <div className="child4-a"><FaIndianRupeeSign/></div>
                                     <div className="child4-b">1,349</div>
                               </div>
+                                    <div className="child4-c"> View More</div>
                                     <div className="card-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -152,6 +168,7 @@ const Landing = () => {
                                     <div className="child4-a"><FaIndianRupeeSign/></div>
                                     <div className="child4-b">10,917</div>
                               </div>
+                                    <div className="child4-c"> View More</div>
                                     <div className="card-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -164,6 +181,7 @@ const Landing = () => {
                                     <div className="child4-a"><FaIndianRupeeSign/></div>
                                     <div className="child4-b">37,899</div>
                               </div>
+                                    <div className="child4-c"> View More</div>
                                     <div className="card-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -176,6 +194,7 @@ const Landing = () => {
                                     <div className="child4-a"><FaIndianRupeeSign/></div>
                                     <div className="child4-b">2,890</div>
                               </div>
+                              <     div className="child4-c"> View More</div>
                                     <div className="card-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -188,6 +207,7 @@ const Landing = () => {
                                     <div className="child4-a"><FaIndianRupeeSign/></div>
                                     <div className="child4-b">4,66,672</div>
                               </div>
+                                    <div className="child4-c"> View More</div>
                                     <div className="card-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -200,6 +220,7 @@ const Landing = () => {
                                     <div className="child4-a"><FaIndianRupeeSign/></div>
                                     <div className="child4-b">3,66,672</div>
                               </div>
+                                    <div className="child4-c"> View More</div>
                                     <div className="card-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -212,6 +233,7 @@ const Landing = () => {
                                     <div className="child4-a"><FaIndianRupeeSign/></div>
                                     <div className="child4-b">2,39,000</div>
                               </div>
+                                      <div className="child4-c"> View More</div>
                                     <div className="card-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -224,6 +246,7 @@ const Landing = () => {
                                     <div className="child4-a"><FaIndianRupeeSign/></div>
                                     <div className="child4-b">1,45,490</div>
                               </div>
+                                    <div className="child4-c"> View More</div>
                                     <div className="card-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
                   </div>
@@ -239,6 +262,7 @@ const Landing = () => {
                               <div className="card-box4">
                               
                               </div>
+                                    <div className="child4-c"> View More</div>
                                     <div className="heartlogo-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -250,6 +274,7 @@ const Landing = () => {
                               <div className="card-box4">
                               
                               </div>
+                                     <div className="child4-c"> View More</div>
                                     <div className="heartlogo-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -261,6 +286,7 @@ const Landing = () => {
                               <div className="card-box4">
                               
                               </div>
+                                    <div className="child4-c"> View More</div>
                                     <div className="heartlogo-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -272,6 +298,7 @@ const Landing = () => {
                               <div className="card-box4">
                                     
                               </div>
+                                     <div className="child4-c"> View More</div>
                                     <div className="heartlogo-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -283,6 +310,7 @@ const Landing = () => {
                               <div className="card-box4">
                                           
                               </div>
+                                    <div className="child4-c"> View More</div>
                                     <div className="heartlogo-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -294,6 +322,7 @@ const Landing = () => {
                               <div className="card-box4">
                                     
                               </div>
+                                    <div className="child4-c"> View More</div>
                                     <div className="heartlogo-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
 
@@ -304,6 +333,7 @@ const Landing = () => {
                               <div className="card-box3">Up to 20% off</div>
                               <div className="card-box4">
                               </div>
+                                     <div className="child4-c"> View More</div>
                                     <div className="heartlogo-box5"> <a style={{color:'#0075FF'}} href=""><CiHeart style={{fontSize:'30px'}}/></a></div>
                         </div>
                   </div>
