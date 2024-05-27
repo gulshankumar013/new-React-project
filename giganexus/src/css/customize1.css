@@ -19,6 +19,10 @@
     border-radius: 18px;
     background:#FAF9F6;
     box-shadow: 3px 4px 16px 0px rgba(0, 93, 255, 0.25);
+    transition: 0.3s;
+}
+.customize1-child1:hover{
+    transform: scale(1.1);
 }
 .customize1-child1-a{
     display: flex;

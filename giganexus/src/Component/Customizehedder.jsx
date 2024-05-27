@@ -15,6 +15,7 @@ const Customizehedder = () => {
                 <div className="cutomizehedder-child1-img"></div>
           </div>
           </Link>
+          
         <Link to={"/customize/hedder/customize2"}>
           <div className="cutomizehedder-child2">
             <div className="cutomizehedder-child2-name">

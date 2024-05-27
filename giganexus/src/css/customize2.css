@@ -17,6 +17,10 @@
     flex-shrink: 0;
     border-radius: 18px;
     background: #FAF9F6;
+    transition: 0.3s;
+}
+.customize2-parent:hover{
+    transform: scale(1.1);
 }
 .customize2-parent-child1{
     margin-top: 5%;

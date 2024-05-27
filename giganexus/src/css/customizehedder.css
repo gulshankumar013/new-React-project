@@ -17,9 +17,11 @@
     background:white;
     transition: color 0.4s linear;
     box-shadow: 11px 4px 16px 0px rgba(0, 93, 255, 0.25);
+    transition: 0.5s;
 }
 .cutomizehedder-child1:hover{
     background-color:#69a2e4;
+    transform: scale(1.1);
    
 }
 .cutomizehedder-child1 h1:hover{
@@ -56,9 +58,11 @@
     border-radius: 1.125em;
     background:white;
     box-shadow: 11px 4px 16px 0px rgba(0, 93, 255, 0.25);
+    transition: 0.5s;
 }
 .cutomizehedder-child2:hover{
     background-color:#69a2e4;
+    transform: scale(1.1);
    
 }
 .cutomizehedder-child2-name{
@@ -91,9 +95,11 @@
     border-radius: 1.125em;
     background: white;
     box-shadow: 11px 4px 16px 0px rgba(0, 93, 255, 0.25);
+    transition: 0.5s;
 }
 .cutomizehedder-child3:hover{
     background-color:#69a2e4;
+    transform: scale(1.1);
    
 }
 .cutomizehedder-child3-img{
